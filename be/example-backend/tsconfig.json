@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES6",               // Modern JavaScript features
+    "module": "commonjs",             // CommonJS module system for Node.js
+    "outDir": "./dist",               // Output directory for compiled files
+    "rootDir": ".",                   // Source files directory
+    "strict": true,                   // Enable all strict type-checking options
+    "esModuleInterop": true,          // Compatibility with CommonJS modules
+    "skipLibCheck": true,             // Skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true, // Enforce consistent casing
+    "moduleResolution": "node",       // Use Node.js module resolution
+    "resolveJsonModule": true,        // Allow importing JSON files
+    "isolatedModules": true,          // Ensures each file can be transpiled independently
+    "noEmit": false,                  // Enable emitting files
+    "incremental": true               // Enable incremental compilation for faster builds
+  },
+  "include": ["*.ts"],                   // Include all source files
+  "exclude": ["node_modules"]         // Exclude dependencies
+}
